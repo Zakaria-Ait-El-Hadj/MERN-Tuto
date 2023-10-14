@@ -18,6 +18,7 @@ const CreateBook = () => {
     const data = {
       title,
       author,
+      
     };
     setLoading(true);
     axios.post(`http://localhost:3000/books`, data)
