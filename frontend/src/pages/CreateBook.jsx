@@ -17,8 +17,7 @@ const CreateBook = () => {
   const handleSaveBook = () => {
     const data = {
       title,
-      author,
-      
+      author,     
     };
     setLoading(true);
     axios.post(`http://localhost:3000/books`, data)
